@@ -12,7 +12,7 @@ func main() {
 
 	address2.city = "Bandung"
 
-	// operator & 
+	// operator &
 	// address2 = &Address{"Jakarta", "DKI Jakarta", "Indonesia"}
 
 	// operator *
@@ -20,4 +20,12 @@ func main() {
 
 	fmt.Println(address1)
 	fmt.Println(address2)
+
+	alamat1 := new(Address)
+	alamat2 := alamat1
+
+	alamat1.country = "Indonesia"
+
+	fmt.Println(alamat1)
+	fmt.Println(alamat2)
 }
