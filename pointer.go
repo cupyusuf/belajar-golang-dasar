@@ -12,6 +12,8 @@ func main() {
 
 	address2.city = "Bandung"
 
+	address2 = &Address{"Jakarta", "DKI Jakarta", "Indonesia"}
+
 	fmt.Println(address1) // {Cimahi Jawa Barat Indonesia}
 	fmt.Println(address2)
 }
