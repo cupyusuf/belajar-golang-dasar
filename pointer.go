@@ -8,7 +8,7 @@ type Address struct {
 
 func main() {
 	address1 := Address{"Cimahi", "Jawa Barat", "Indonesia"}
-	address2 := address1
+	address2 := &address1
 
 	address2.city = "Bandung"
 
